@@ -68,7 +68,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
 .image-container:hover .image-overlay {
     opacity: 1;
 }
@@ -82,11 +81,16 @@ body {
 
 .card p {
     color: hsl(215, 51%, 70%);
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 h2 {
     margin: 15px 0;
+}
+
+h2:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .info {
@@ -105,6 +109,11 @@ h2 {
     gap: 7px;
     color: hsl(178, 100%, 50%);
     font-weight: 600;
+}
+
+.price a:hover {
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
 }
 
 .time-left {
